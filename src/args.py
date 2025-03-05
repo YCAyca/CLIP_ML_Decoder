@@ -9,9 +9,9 @@ def get_arguments():
     parser.add_argument('--exp_name', type=str, default="v1", help='Path to save the outputs')
 
     # Model Hyperparameters
-    parser.add_argument('--num_groups', type=int, default=6, help='Number of learnable group queries')
-    parser.add_argument('--num_layers', type=int, default=2, help='Number of decoder layers')
-    parser.add_argument('--num_heads', type=int, default=2, help='Number of attention heads')
+    parser.add_argument('--num_groups', type=int, default=4, help='Number of learnable group queries')
+    parser.add_argument('--num_layers', type=int, default=1, help='Number of decoder layers')
+    parser.add_argument('--num_heads', type=int, default=8, help='Number of attention heads')
     parser.add_argument('--ff_dim', type=int, default=2048, help='Feed-forward hidden dimension')
     parser.add_argument('--dropout', type=float, default=0.1, help='Dropout rate')
     
