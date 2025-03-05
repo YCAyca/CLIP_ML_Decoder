@@ -69,16 +69,19 @@ Labels folder should include the corresponding .txt file per each image. I.e:
 python src/CLIPdecoder.py --dataset_path ../MLDataset --output_path outputs --exp_name v1
 ```
 
-<img src="images/loss.png" alt="labels" style="width:25%">
-<img src="images/train.png" alt="labels" style="width:25%">
-<img src="images/test.png" alt="labels" style="width:25%">
+<p align="center">
+    <img src="images/loss.png" alt="labels" style="width:30%;">
+    <img src="images/train.png" alt="labels" style="width:30%;">
+    <img src="images/test.png" alt="labels" style="width:30%;">
+</p>
 
 ## Inference
 
 ```
 python src/inference.py  --checkpoint_path outputs/v1/best_model.pth  --output_path outputs --exp_name inference --classnames ../MLDataset/classnames.txt 
 ```
-
-<img src="images/inf1.png" alt="labels" style="width:30%">
-<img src="images/inf2.png" alt="labels" style="width:30%">
-<img src="images/inf3.png" alt="labels" style="width:30%">
+<p align="center">
+    <img src="images/inf1.png" alt="labels" style="width:30%;">
+    <img src="images/inf2.png" alt="labels" style="width:30%;">
+    <img src="images/inf3.png" alt="labels" style="width:30%;">
+</p>
