@@ -407,7 +407,7 @@ if __name__ == '__main__':
         num_layers = [1,2]
         best_best_recall = 0
         best_best_precision = 0
-        for i in range(1,12): #num groups
+        for i in range(4,9): #num groups
                 for k in num_heads: #num heads
                     for d in drops:  # drop out
                         for ff_dim in ff_dims:

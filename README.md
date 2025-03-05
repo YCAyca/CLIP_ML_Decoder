@@ -75,6 +75,10 @@ python src/CLIPdecoder.py --dataset_path ../MLDataset --output_path outputs --ex
     <img src="images/test.png" alt="labels" style="width:30%;">
 </p>
 
+
+Use ``` --experimental_run ``` to run grid search over hyperparameters over a logical range. It will create ~1K experiments and return you the optimal hyperparameters giving you the best result for your custom dataset. 
+If not, you can arrange the hyperparameters from terminal arguments and run the experiments with different hyperparameters manually, one by one.
+
 ## Inference
 
 ```
